@@ -1,0 +1,180 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Navbar START */
+nav {
+    background-color: #121d28;
+}
+
+.social-icons {
+    color: #00C6B6 !important;
+}
+
+.nav-items:hover {
+    color: #00C6B6;
+}
+
+.btn-resume {
+    border: 1.5px solid #00C6B6;
+    border-radius: 5px;
+    line-height: 36px;
+    padding: 0 16px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Navbar END */
+
+/* Sidenav END */
+.sidenav {
+    background-color: #121d28;
+}
+
+.sidenav li>a {
+    color: #FFFFFF;
+}
+
+/* Sidenav END */
+
+/* Home START */
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #121d28;
+}
+
+.name {
+    font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+    background: -webkit-linear-gradient(.90turn, #12febf, #299dff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.divider {
+    height: 1px;
+    background-color: #FFFFFF;
+    /* background-color: #1a2a3a; */
+}
+
+.statement {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.jumbotron {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Home END */
+
+/* About START */
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+/* About START */
+
+/* Experience START */
+.experience {
+    height: 100vh;
+    width: 100%;
+    background-color: #121d28;
+}
+
+/* Experience END */
+
+/* Projects START */
+.projects {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+/* Projects END */
+
+/* Education START */
+.education {
+    height: 100vh;
+    width: 100%;
+    background-color: #121d28;
+}
+
+.education-title {
+    text-align: center;
+    color: #00C6B6;
+    font-weight: 600;
+}
+
+.csusm-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.education-desc {
+    color: #FFFFFF;
+}
+/* Education END */
+
+/* Contact START */
+.contact {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+/* Contact END */
+
+/* Footer START */
+.footer-copyright {
+    background-color: #0F1620;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.source {
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+}
+
+.source:hover {
+    color: #00C6B6;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.github-stars {
+    margin-right: 5px;
+}
+
+.star-count {
+    margin-right: 15px;
+}
+
+.github-forks {
+    margin-right: 5px;
+}
+
+.fork-count {
+    margin-right: 15px;
+}
+
+/* .footer-love {
+    color: #DB4437;
+}
+
+.footer-code {
+    color: #FFFFFF;
+} */
+/* Footer START */
