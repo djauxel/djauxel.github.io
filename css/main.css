@@ -12,6 +12,11 @@ nav {
     color: #00C6B6 !important;
 }
 
+.card-image img {
+    object-fit: cover;
+    height: 200px;
+}
+
 .nav-items:hover {
     color: #00C6B6;
 }
@@ -124,6 +129,7 @@ nav {
     width: 100%;
     background-color: #121d28;
 }
+
 /* Experience END */
 
 /* Projects START */
@@ -131,35 +137,6 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #FFFFFF;
-}
-
-.btn:hover {
-    background-color: #00767A;
-}
-
-.btn {
-    margin-top: 15px;
-    margin-right: 10px;
-}
-
-.btn-flat {
-    text-transform: none;
-    color: #00767A;
-    margin-top: 15px;
-    margin-right: 10px;
-}
-
-.btn-view {
-    background-color: #00767A;
-}
-
-.view-icon {
-    margin-right: 5px;
-    color: #00767A;
-}
-
-.disabled-view-icon {
-    margin-right: 5px;
 }
 /* Projects END */
 
