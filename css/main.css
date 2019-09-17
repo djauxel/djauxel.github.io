@@ -76,6 +76,7 @@ nav {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 /* Home END */
 
 /* About START */
@@ -83,7 +84,38 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about-img {
+    margin: auto;
+}
+
+.profile-img {
+    height: auto;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-desc {
+    margin: auto;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.about-quote {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
 /* About START */
 
 /* Experience START */
@@ -92,7 +124,6 @@ nav {
     width: 100%;
     background-color: #121d28;
 }
-
 /* Experience END */
 
 /* Projects START */
@@ -102,6 +133,34 @@ nav {
     background-color: #FFFFFF;
 }
 
+.btn:hover {
+    background-color: #00767A;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.btn-flat {
+    text-transform: none;
+    color: #00767A;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.btn-view {
+    background-color: #00767A;
+}
+
+.view-icon {
+    margin-right: 5px;
+    color: #00767A;
+}
+
+.disabled-view-icon {
+    margin-right: 5px;
+}
 /* Projects END */
 
 /* Education START */
@@ -109,12 +168,9 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #121d28;
-}
-
-.education-title {
-    text-align: center;
-    color: #00C6B6;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .csusm-logo {
@@ -122,9 +178,14 @@ nav {
     justify-content: center;
 }
 
+.education-univ {
+    font-size: 33px;
+}
+
 .education-desc {
     color: #FFFFFF;
 }
+
 /* Education END */
 
 /* Contact START */
@@ -133,6 +194,7 @@ nav {
     width: 100%;
     background-color: #FFFFFF;
 }
+
 /* Contact END */
 
 /* Footer START */
