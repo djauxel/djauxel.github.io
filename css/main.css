@@ -32,6 +32,10 @@ nav {
     -webkit-tap-highlight-color: transparent;
 }
 
+.active {
+    color: #00C6B6;
+}
+
 /* Navbar END */
 
 /* Sidenav END */
@@ -69,6 +73,11 @@ nav {
 }
 
 .statement {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.email {
     color: #FFFFFF;
     font-size: 25px;
 }
@@ -133,15 +142,21 @@ nav {
     align-items: center;
 }
 
+.collection {
+    border: none;
+}
+
 .collection .collection-item {
     background-color: #13334C;
+    border-bottom: 10px solid #121d28;
+    margin-bottom: 5px;
 }
 
 .collection .collection-item li {
     color: #D3DFEE;
     list-style-position: outside;
     list-style-type: disc;
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 .collection .collection-item.avatar {
@@ -180,8 +195,145 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+@media only screen and (max-width: 992px) {
+    .projects {
+        height: auto;
+    }
+}
+
+.fix-top-row {
+    margin-top: 30px;
+}
+
+.fix-bottom-row {
+    margin-top: 30px;
+}
+
+/* .fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+} */
+
+.card-image {
+    width: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.card-desc {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.dsc-card {
+    height: 150px;
+    width: 150px;
+}
+
+.tminuszero-card {
+    color: #0077FF;
+    font-size: 100px;
+}
+
+.btn:hover {
+    background-color: #00767A;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.btn-flat {
+    text-transform: none;
+    color: #00767A;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.btn-view {
+    background-color: #00767A;
+}
+
+.view-icon {
+    margin-right: 5px;
+    color: #00767A;
+}
+
+.disabled-view-icon {
+    margin-right: 5px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+  }
 /* Projects END */
 
 /* Education START */
@@ -208,15 +360,6 @@ nav {
 }
 
 /* Education END */
-
-/* Contact START */
-.contact {
-    height: 100vh;
-    width: 100%;
-    background-color: #FFFFFF;
-}
-
-/* Contact END */
 
 /* Footer START */
 .footer-copyright {
@@ -253,21 +396,20 @@ nav {
     margin-right: 15px;
 }
 
+/* Footer END */
+
 /* Social Media START */
 .icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-bar i {
-    display: block;
     text-align: center;
     padding: 16px;
     color: #636F7C;
-    font-size: 25px;
+    font-size: 35px;
     transition: color 0.3s ease;
 }
 
@@ -275,4 +417,5 @@ nav {
     color: #00C6B6;
     transition: color 0.3s ease;
 }
+
 /* Social Media END */
